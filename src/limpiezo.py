@@ -4,8 +4,10 @@ import numpy as np
 from tqdm import tqdm
 from multiprocessing import Pool, cpu_count
 
-DATASET_DIR = "../Images"
-OUTPUT_DIR = "../dataset_limpio"
+#DATASET_DIR = "../Images"
+#OUTPUT_DIR = "../dataset_limpio"
+DATASET_DIR = "Images"
+OUTPUT_DIR = "dataset_limpio"
 
 TARGET_SIZE = (224, 224)
 VALID_EXTS = [".png"]

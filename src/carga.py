@@ -93,8 +93,11 @@ def copy_single_file(args):
         return False
 
 # Usar la función
-source_directory = "../dataset_limpio"
-target_directory = "../dataset_split"
+#source_directory = "../dataset_limpio"
+#target_directory = "../dataset_split"
+
+source_directory = "dataset_limpio"
+target_directory = "dataset_split"
 
 if __name__ == "__main__":
     if os.path.exists(source_directory):

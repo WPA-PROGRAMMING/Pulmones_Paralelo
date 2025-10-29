@@ -2,3 +2,26 @@ pulmones
 
 el drive para las imagenes es este:
 __https://drive.google.com/file/d/1_A_Q8vfm-h2clYL4rIC7-UxSxZ4TDXsf/view?usp=sharing__
+
+
+
+
+INFORMACIÓN DEL SPLIT
+==================================================
+RESUMEN DE DIVISIÓN
+==================================================
+Clase Normal: 3695 train, 1056 val, 529 test
+Clase Tuberculosis: 2235 train, 638 val, 321 test
+Clase Covid: 2853 train, 815 val, 408 test
+
+TOTAL: 8783 train, 2509 val, 1258 test
+TOTAL GENERAL: 12550 imágenes
+
+
+
+See tiene q descargar el drive, descomprimirlo para tener la carpeta en la raiz del proyecto, posteriormente se ejecutan
+# limpuezo
+# carga
+
+eso genera carpetas con la limpieza de las imaegnes, despues con el split, ya finalmente sigue el notebook, seria cosa de hacer el cambio del svc para nuestra paralelizacion, aunque quizas hay que cambiar las caracteristicas 
+mmm
